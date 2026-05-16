@@ -192,7 +192,7 @@ Este módulo funciona como administrador principal del sistema.
 # 📂 Estructura del proyecto
 
 ```bash
-FrontDesk/
+PlataformaGestionHotelera/
 │
 ├── fuel/                     # Núcleo FuelPHP
 ├── public/                   # Recursos públicos
@@ -226,7 +226,7 @@ FrontDesk/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/logicent/frontdesk.git
+git clone https://github.com/isairey/PlataformaGestionHotelera.git
 ```
 
 ---
@@ -234,7 +234,7 @@ git clone https://github.com/logicent/frontdesk.git
 ## 2️⃣ Acceder al proyecto
 
 ```bash
-cd frontdesk
+cd PlataformaGestionHotelera
 ```
 
 ---
@@ -293,7 +293,7 @@ php oil refine migrate
 Abrir:
 
 ```bash
-http://localhost/frontdesk/
+http://localhost/PlataformaGestionHotelera/
 ```
 
 ---
