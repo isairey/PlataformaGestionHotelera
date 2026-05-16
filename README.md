@@ -2,7 +2,7 @@
 
 <img width="220" src="https://cdn-icons-png.flaticon.com/512/3176/3176363.png" />
 
-# 🏨 FrontDesk PMS
+# 🏨 PlataformaGestionHotelera PMS
 
 ### Plataforma de gestión hotelera y administración de propiedades 🚀
 
@@ -444,6 +444,6 @@ Proyecto open source bajo licencia MIT orientado a la administración hotelera y
 
 <div align="center">
 
-### 🏨 FrontDesk PMS — administración inteligente para hoteles y alojamientos 🚀
+### 🏨 PlataformaGestionHotelera PMS — administración inteligente para hoteles y alojamientos 🚀
 
 </div>
