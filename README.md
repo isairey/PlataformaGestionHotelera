@@ -1,88 +1,450 @@
-**_Note: This project has been archived in favor of [logicent/frontier](https://github.com/logicent/frontier)_**
+<div align="center">
 
-# FrontDesk (PMS)
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/3176/3176363.png" />
 
-* Version: 3.x
-* [Website](https://logicent.co)
-* [Demo](https://fdesk.demo.logicent.co)
-    Username: `admin`
-    Password: `safdesk1`
-* [Support Forum](https://github.com/logicent/frontdesk/issues) for comments, discussion and community support
-<!-- [Release Documentation](https://github.com/logicent/frontdesk/docs) -->
-<!-- [Release API browser](https://github.com/logicent/frontdesk/) -->
-<!-- [Development branch Documentation](https://github.com/logicent/frontdesk/dev-docs) -->
-<!-- [Development branch API browser](https://github.com/logicent/frontdesk/dev-api) -->
+# 🏨 FrontDesk PMS
 
-[![FrontDesk Dashboard](/public/images/fd-dashboard.png)](https://fdesk.demo.logicent.co)
+### Plataforma de gestión hotelera y administración de propiedades 🚀
 
-## Description
+<p align="center">
+  <b>FrontDesk PMS</b> es un sistema avanzado de administración de propiedades (PMS) diseñado para hoteles, alojamientos y servicios de renta, permitiendo gestionar habitaciones, reservas, usuarios y operaciones administrativas desde una plataforma moderna y centralizada.
+</p>
 
-FrontDesk is a property management system (PMS) for facilities and establishments offering accommodation, rental and hiring services.
+<p align="center">
+  <img src="https://img.shields.io/badge/PropertyManagement-PMS-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PHP-FuelPHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+  <img src="https://img.shields.io/badge/Bootstrap-SBAdmin2-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+</p>
 
-FrontDesk is built using PHP (FuelPHP 1.8.2) and JavaScript (jQuery 3.4.1) with customized SBAdmin2 (Bootstrap 3) admin template.
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-módulos-del-sistema">Módulos</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-vista-previa">Vista previa</a>
+</p>
 
-## Requirements
+</div>
 
-- PHP 7.3 and php7.3-mbstring (PHP 7.2 should also work)
+---
+
+# 🌌 Acerca del proyecto
+
+**FrontDesk PMS** es un sistema profesional de administración de propiedades diseñado para hoteles, hostales, alojamientos y servicios de alquiler, facilitando la automatización de reservas, administración de habitaciones y control operativo desde una interfaz moderna.
+
+La plataforma fue desarrollada para:
+
+- 🏨 Gestionar propiedades
+- 🛏️ Administrar habitaciones
+- 📅 Controlar reservas
+- 👥 Gestionar usuarios
+- 💳 Supervisar pagos
+- 📊 Administrar operaciones
+- 🔐 Gestionar accesos
+- 🌐 Optimizar servicios de alojamiento
+
+---
+
+# ✨ Características
+
+## 🏨 Gestión de propiedades
+
+- 🏢 Registro de instalaciones
+- 🛏️ Gestión de habitaciones
+- 📍 Administración de ubicaciones
+- 📋 Configuración de tarifas
+- ⚙️ Gestión de servicios
+
+---
+
+## 👥 Gestión de usuarios
+
+- 👤 Registro de clientes
+- 🔐 Inicio de sesión
+- 📄 Gestión de perfiles
+- ⚡ Administración centralizada
+- 📊 Control de accesos
+
+---
+
+## 📅 Sistema de reservas
+
+- 📆 Reservas de habitaciones
+- 💳 Gestión de pagos
+- 📋 Historial de reservas
+- ⚡ Confirmaciones rápidas
+- 🛎️ Administración hotelera
+
+---
+
+## 📊 Panel administrativo
+
+- 📈 Dashboard administrativo
+- 🏨 Gestión de propiedades
+- 👥 Administración de usuarios
+- 📅 Supervisión de reservas
+- 🔐 Gestión de permisos
+
+---
+
+# 👨‍💼 Módulos del sistema
+
+## 🏨 Property Module
+
+Este módulo administra todas las propiedades y alojamientos registrados dentro del sistema.
+
+### Funcionalidades:
+
+- ➕ Registro de propiedades
+- 🛏️ Administración de habitaciones
+- 📋 Configuración de tarifas
+- ⚙️ Gestión de servicios
+- 📍 Administración de instalaciones
+
+---
+
+## 👤 Customer Module
+
+Este módulo es utilizado por clientes y huéspedes.
+
+### Funcionalidades:
+
+- 🔐 Inicio de sesión
+- 📅 Reservar habitaciones
+- 💳 Gestión de pagos
+- 📄 Consultar historial
+- 🛎️ Solicitar servicios
+
+---
+
+## 🛠️ Admin Module
+
+Este módulo funciona como administrador principal del sistema.
+
+### Funcionalidades:
+
+- 👥 Gestión de usuarios
+- 🏨 Supervisión de propiedades
+- 📊 Dashboard administrativo
+- 📅 Administración de reservas
+- 🔐 Gestión general
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## 🎨 Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,js,jquery" />
+</p>
+
+- HTML5
+- CSS3
+- Bootstrap 3
+- JavaScript
+- jQuery 3.4.1
+- SBAdmin2 Template
+
+---
+
+## ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=php" />
+</p>
+
+- PHP 7.3
+- FuelPHP 1.8.2
+- Arquitectura MVC
+- Gestión de sesiones
+
+---
+
+## 🗄️ Base de datos
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql" />
+</p>
+
 - MySQL 5.7
-- Nginx _(sample nginx.conf included in project root)_
+- Relaciones SQL
+- Persistencia de datos
+- Gestión hotelera
 
-## Installation
+---
 
-### Setup via CLI
+## 🧰 Herramientas
 
-`git clone https://github.com/logicent/frontdesk.git <path/to/project>`
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode" />
+</p>
 
-`cd <path/to/project>`
+- Git
+- GitHub
+- Visual Studio Code
+- Composer
+- Nginx
 
-*Note: Ensure composer is installed for this install task*
+---
 
-`php oil refine install`
+# 📂 Estructura del proyecto
 
-create/modify `db.php` settings as needed under `fuel/app/config/`
+```bash
+FrontDesk/
+│
+├── fuel/                     # Núcleo FuelPHP
+├── public/                   # Recursos públicos
+├── fuel/app/                 # Configuración y lógica
+├── fuel/packages/            # Paquetes adicionales
+├── public/images/            # Recursos gráficos
+├── public/assets/            # Recursos frontend
+├── migrations/               # Migraciones SQL
+├── nginx.conf                # Configuración Nginx
+├── composer.json             # Dependencias PHP
+├── README.md
+└── LICENSE
+```
 
-run tasks to create database tables
+---
 
-`php oil refine migrate --packages=auth`
+# ⚡ Instalación
 
-`php oil refine migrate:current `
+## 📋 Requisitos
 
-`php oil refine migrate`
+- PHP 7.3+
+- MySQL 5.7
+- Composer
+- Nginx
+- Navegador moderno
 
-TODO: create task to set/update default login 
+---
 
-TODO: create task to load default reports
+# 🚀 Configuración del proyecto
 
-### Setup (post-install) via UI 
+## 1️⃣ Clonar repositorio
 
-Go to sidebar navigation menu to:
+```bash
+git clone https://github.com/logicent/frontdesk.git
+```
 
-- add business detail
+---
 
-- add facility property, unit types, units, rate types and rates
+## 2️⃣ Acceder al proyecto
 
-- add facility services
+```bash
+cd frontdesk
+```
 
-- add users
+---
 
-<!-- ## More information -->
+## 3️⃣ Instalar dependencias
 
-<!-- For more detailed information, see the [development wiki](https://github.com/logicent/frontdesk/wiki). -->
+```bash
+composer install
+```
 
-## Development Team
+---
 
-* Ken Mwai - Creator and Lead Developer/Maintainer ([@mwaigichuhi](https://twitter.com/mwaigichuhi))
+## 4️⃣ Ejecutar instalación
 
-### Want to contribute?
+```bash
+php oil refine install
+```
 
-Thank you for considering contributing to FrontDesk. New contributors to improve the solution further or help provide support to issues are most welcome.
+---
 
-<!-- ### Alumni -->
+## 5️⃣ Configurar base de datos
 
-<!-- * (none) -->
+Editar:
 
-<!-- ## Sponsors -->
-<!-- Support FrontDesk by becoming a sponsor on [Patreon](https://www.patreon.com/frontdesk). Your logo will show up here with a link to your website. One-time donation is welcomed through PayPal. -->
+```bash
+fuel/app/config/db.php
+```
 
-## License
-FrontDesk is released under the [MIT license](https://opensource.org/licenses/MIT).
+Agregar:
+
+```php
+'connection' => array(
+    'hostname' => 'localhost',
+    'database' => 'frontdesk',
+    'username' => 'root',
+    'password' => '',
+),
+```
+
+---
+
+## 6️⃣ Ejecutar migraciones
+
+```bash
+php oil refine migrate --packages=auth
+
+php oil refine migrate:current
+
+php oil refine migrate
+```
+
+---
+
+## 7️⃣ Ejecutar proyecto
+
+Abrir:
+
+```bash
+http://localhost/frontdesk/
+```
+
+---
+
+# 📊 Funcionalidades principales
+
+## 🏨 Gestión hotelera
+
+- Administración de habitaciones
+- Gestión de tarifas
+- Configuración de servicios
+- Control de disponibilidad
+
+---
+
+## 👥 Administración de usuarios
+
+- Registro y autenticación
+- Gestión de perfiles
+- Roles administrativos
+- Control de accesos
+
+---
+
+## 📅 Gestión de reservas
+
+- Reservas en tiempo real
+- Gestión de pagos
+- Historial de reservas
+- Confirmaciones automáticas
+
+---
+
+# 📸 Vista previa
+
+## 🖥️ Interfaces del sistema
+
+<div align="center">
+
+### 📊 Dashboard principal
+![Dashboard](./public/images/fd-dashboard.png)
+
+### 🏨 Gestión de propiedades
+![Properties](https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop)
+
+### 🛏️ Gestión de habitaciones
+![Rooms](https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop)
+
+### 📅 Sistema de reservas
+![Booking](https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?q=80&w=1200&auto=format&fit=crop)
+
+### 👥 Administración de usuarios
+![Users](https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop)
+
+### 💳 Gestión de pagos
+![Payments](https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1200&auto=format&fit=crop)
+
+### ⚙️ Configuración del sistema
+![Settings](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop)
+
+### 📈 Panel administrativo
+![Admin](https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop)
+
+</div>
+
+---
+
+# 🧠 Objetivos del proyecto
+
+## 🎯 Aprendizaje y administración
+
+- Desarrollo web con FuelPHP
+- Gestión hotelera
+- Bases de datos relacionales
+- CRUD administrativos
+- Sistemas de autenticación
+- Arquitectura MVC
+- Automatización de reservas
+
+---
+
+# 🚧 Roadmap
+
+## 🔮 Próximas mejoras
+
+- 📱 Aplicación móvil
+- ☁️ Infraestructura cloud
+- 🤖 Automatización inteligente
+- 🌐 API REST moderna
+- 🔔 Notificaciones en tiempo real
+- 📊 Reportes avanzados
+- 💳 Integración de pagos online
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Fork del proyecto
+
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
+
+2. Commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+3. Push
+
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+4. Pull Request 🚀
+
+---
+
+# 👨‍💻 Equipo de desarrollo
+
+<div align="center">
+
+## Ken Mwai — Creator & Lead Developer
+
+Desarrollador y mantenedor principal de FrontDesk PMS 🚀
+
+</div>
+
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto open source bajo licencia MIT orientado a la administración hotelera y gestión de propiedades.
+
+---
+
+<div align="center">
+
+### 🏨 FrontDesk PMS — administración inteligente para hoteles y alojamientos 🚀
+
+</div>
