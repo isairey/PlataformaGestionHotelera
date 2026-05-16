@@ -417,16 +417,15 @@ git push origin feature/nueva-funcionalidad
 
 ---
 
-# 👨‍💻 Equipo de desarrollo
+# 👨‍💻 Desarrollador
 
 <div align="center">
 
-## Ken Mwai — Creator & Lead Developer
+## Isai Reyes — Full Stack Developer
 
-Desarrollador y mantenedor principal de FrontDesk PMS 🚀
+Desarrollador apasionado por plataformas inmobiliarias, sistemas administrativos y arquitectura web moderna 🚀
 
 </div>
-
 ---
 
 # 🌟 Apoya el proyecto
